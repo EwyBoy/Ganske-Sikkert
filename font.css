@@ -1,0 +1,14 @@
+.headliner {
+    font-family: 'simplificasimplifica', Arial, sans-serif;
+    font-weight:normal;
+    font-size: 100px;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'simplificasimplifica';
+    src: url('simplifica_typeface-webfont.woff2') format('woff2'),
+         url('simplifica_typeface-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

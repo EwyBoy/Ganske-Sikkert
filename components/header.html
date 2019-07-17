@@ -4,11 +4,9 @@
             <img style="margin-top: -5px" src="assets/images/logo_transparent_sqr.png" alt="Logo" width="32" height="32">
         </a>
         <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-
             <span></span>
             <span></span>
             <span></span>
-
         </div>
     </div>
 
@@ -32,20 +30,34 @@
                 </div>
             </div>
         </div>
-
         <div class="navbar-end">
             <div class="navbar-item">
                 <div class="field is-grouped">
                     <p class="control">
-                          <span class="icon has-text-primary" href="https://www.facebook.com/ganskesikkertnorge" style="margin-right: 10px">
-                            <i href="https://www.facebook.com/ganskesikkertnorge" class="fab fa-facebook fa-2x"></i>
-                          </span>
-                            <span class="icon has-text-primary" href="http://linkedin.com/company/ganskesikkert">
-                            <i href="http://linkedin.com/company/ganskesikkert" class="fab fa-linkedin fa-2x"></i>
-                        </span>
+                        <a class="button is-white" href="https://www.facebook.com/ganskesikkertnorge">
+                             <span class="icon has-text-primary">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </span>
+                        </a>
+                        <a class="button is-white" href="https://www.linkedin.com/company/ganskesikkert">
+                            <span class="icon has-text-primary" >
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </span>
+                        </a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </nav>
+<script type="text/javascript">
+    (function() {
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('#' + burger.dataset.target);
+        burger.addEventListener('click', function() {
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        }
+    );
+    })();
+</script>
