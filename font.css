@@ -4,6 +4,16 @@
     font-size: 100px;
     font-style:normal;
 }
+.subliner {
+    font-family: 'simplificasimplifica', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 60px;
+    font-style:normal;
+}
+
+.link a {
+    color: #00d1b2;
+}
 
 @font-face {
     font-family: 'simplificasimplifica';

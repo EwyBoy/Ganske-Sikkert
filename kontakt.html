@@ -25,172 +25,196 @@
         <script type="application/ld+json">{"@context": "http://schema.org","@type": "website","url": "http://ganskesikkert.no/","name": "Ganske Sikkert","image": "http://ganskesikkert.com/assets/images/logo_transparent.png", "inLanguage": "no-NO","headline": "Ganske Sikkert"}</script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144241840-1"></script>
-        <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-144241840-1');</script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144241840-2"></script>
+        <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-144241840-1');gtag('config', 'UA-144241840-2');</script>
     </head>
     <body>
+        <div id="header" class="header"></div>
 
-    <div id="header" class="header"></div>
+        <section class="hero is-primary">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title has-text-centered">
+                        Kontakt Information
+                    </h1>
+                    <h1 class="subtitle has-text-centered">
+                        <strike>kontakt@ganskesikker.no</strike>
+                        <p></p>
+                        <strong>ganskesikkertnorge@gmail.com</strong>
+                    </h1>
 
-    <section class="hero is-primary">
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title has-text-centered">
-                    Kontakt Information
-                </h1>
-                <h1 class="subtitle has-text-centered">
-                    <strike>kontakt@ganskesikker.no</strike><p></p>
-                    <strong>kontakt-ganskesikkert@gmail.com</strong>
-                </h1>
+                    <article class="message is-dark">
+                        <div class="message-header">
+                            <p class="has-text-centered">Info!</p>
+                            <button onclick="parentNode.parentNode.remove()" class="delete" aria-label="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            Vi har midlertidig litt problemer med mail serveren. Vennligst benytt deg av <strong>ganskesikkertnorge@gmail.com</strong> inntil serveren er oppe igjen.
+                        </div>
+                    </article>
 
-                <article class="message is-dark">
-                    <div class="message-header">
-                        <p>Info!</p>
-                        <button onclick="parentNode.parentNode.remove()" class="delete" aria-label="delete"></button>
-                    </div>
-                    <div class="message-body">
-                        Vi har midlertidig litt problemer med mail serveren vår. Vennligst benytt deg av <strong>kontakt-ganskesikkert@gmail.com</strong> inntil serveren er oppe igjen.
-                    </div>
-                </article>
+                    <p class="subtitle has-text-centered">For mer informasjon om hvordan vi kan hjelpe din bedrift, send oss en mail</p>
+                    <a class="button is-white is-large is-fullwidth" href = "mailto: ganskesikkertnorge@gmail.com">Send Email</a>
+                </div>
+            </div>
+        </section>
 
-                <p class="subtitle has-text-centered">For mer informasjon om hvordan vi kan hjelpe din bedrift, send oss en mail</p>
-                <a class="button is-white is-large is-fullwidth" href = "mailto: kontakt-ganskesikkert@gmail.com">Send Email</a>
+        <br>
+
+        <div class="tile is-ancestor" style="padding: 20px; margin: 20px">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-white">
+                        <div class="card is-primary">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="https://media.licdn.com/dms/image/C4D03AQFx75UT1ZwpqQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=ZxNPMKxnMtItkG0y4SH1Vyzseax3ZSGgIqZPI1J51RQ" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="https://media.licdn.com/dms/image/C4D03AQFx75UT1ZwpqQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=ZxNPMKxnMtItkG0y4SH1Vyzseax3ZSGgIqZPI1J51RQ" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">Sindre Oftebro</p>
+                                        <p class="subtitle is-6">CFO</p>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p>sindre@ganskesikker.no</p>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a class="button is-white is-fullwidth" href = "mailto: sindre@ganskesikkert.no">Send Email</a>
+                                    </span>
+                                </p>
+                                <p class="card-footer-item">
+                                    <span>
+                                        Besøk på <a href="https://www.linkedin.com/in/sindre-lien-oftebro-193047161/">LinkedIn</a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-white">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="https://media.licdn.com/dms/image/C4D03AQH98eJsvTLwrw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=-KI_nxPgZYMnahC3FzMy0BHEQAxyX_4-8gbRah-djfo" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="https://media.licdn.com/dms/image/C4D03AQH98eJsvTLwrw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=-KI_nxPgZYMnahC3FzMy0BHEQAxyX_4-8gbRah-djfo" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">Adrian Rabben</p>
+                                        <p class="subtitle is-6">CEO</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    <p>adrian@ganskesikker.no</p>
+                                </div>
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a class="button is-white is-fullwidth" href = "mailto: adrian@ganskesikkert.no">Send Email</a>
+                                    </span>
+                                </p>
+                                <p class="card-footer-item">
+                                    <span>
+                                        Besøk på <a href="https://www.linkedin.com/in/rabben/">LinkedIn</a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-white">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-3by3">
+                                    <img src="assets/images/linked.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="assets/images/linked.png" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">Eivind Norling</p>
+                                        <p class="subtitle is-6">CTO</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    <p>eivind@ganskesikker.no</p>
+                                </div>
+                            </div>
+                            <footer class="card-footer ">
+                                <p class="card-footer-item">
+                                    <span>
+                                        <a class="button is-white is-fullwidth" href = "mailto: eivind@ganskesikkert.no">Send Email</a>
+                                    </span>
+                                </p>
+                                <p class="card-footer-item">
+                                    <span>
+                                        Besøk på <a class="is-primary" href="https://www.linkedin.com/in/eivind-norling/">LinkedIn</a>
+                                    </span>
+                                </p>
+                            </footer>
+                        </div>
+                    </article>
+                </div>
             </div>
         </div>
-    </section>
 
-    <br>
+        <div id="footer" class="footer"></div>
 
-    <div class="tile is-ancestor" style="padding: 20px; margin: 20px">
-        <div class="tile">
-            <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-white">
-                    <div class="card is-primary">
-                        <div class="card-image">
-                            <figure class="image is-3by3">
-                                <img src="https://media.licdn.com/dms/image/C4D03AQFx75UT1ZwpqQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=ZxNPMKxnMtItkG0y4SH1Vyzseax3ZSGgIqZPI1J51RQ" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="https://media.licdn.com/dms/image/C4D03AQFx75UT1ZwpqQ/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=ZxNPMKxnMtItkG0y4SH1Vyzseax3ZSGgIqZPI1J51RQ" alt="Placeholder image">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-                                    <p class="title is-4">Sindre Oftebro</p>
-                                    <p class="subtitle is-6">CFO</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <p>sindre@ganskesikker.no</p>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <p class="card-footer-item">
-                                <span>
-                                    <a class="button is-white is-fullwidth" href = "mailto: sindre@ganskesikkert.no">Send Email</a>
-                                </span>
-                            </p>
-                            <p class="card-footer-item">
-                                <span>
-                                    Besøk på <a href="https://www.linkedin.com/in/sindre-lien-oftebro-193047161/">LinkedIn</a>
-                                </span>
-                            </p>
-                        </footer>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="tile">
-            <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-white">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-3by3">
-                                <img src="https://media.licdn.com/dms/image/C4D03AQH98eJsvTLwrw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=-KI_nxPgZYMnahC3FzMy0BHEQAxyX_4-8gbRah-djfo" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="https://media.licdn.com/dms/image/C4D03AQH98eJsvTLwrw/profile-displayphoto-shrink_800_800/0?e=1568851200&v=beta&t=-KI_nxPgZYMnahC3FzMy0BHEQAxyX_4-8gbRah-djfo" alt="Placeholder image">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-                                    <p class="title is-4">Adrian Rabben</p>
-                                    <p class="subtitle is-6">CEO</p>
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                <p>adrian@ganskesikker.no</p>
-                            </div>
-                        </div>
-                        <footer class="card-footer">
-                            <p class="card-footer-item">
-                                <span>
-                                    <a class="button is-white is-fullwidth" href = "mailto: adrian@ganskesikkert.no">Send Email</a>
-                                </span>
-                            </p>
-                            <p class="card-footer-item">
-                                <span>
-                                    Besøk på <a href="https://www.linkedin.com/in/rabben/">LinkedIn</a>
-                                </span>
-                            </p>
-                        </footer>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="tile">
-            <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-white">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-3by3">
-                                <img src="assets/images/linked.png" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-left">
-                                    <figure class="image is-48x48">
-                                        <img src="assets/images/linked.png" alt="Placeholder image">
-                                    </figure>
-                                </div>
-                                <div class="media-content">
-                                    <p class="title is-4">Eivind Norling</p>
-                                    <p class="subtitle is-6">CTO</p>
-                                </div>
-                            </div>
-
-                            <div class="content">
-                                <p>eivind@ganskesikker.no</p>
-                            </div>
-                        </div>
-                        <footer class="card-footer ">
-                            <p class="card-footer-item">
-                                <span>
-                                    <a class="button is-white is-fullwidth" href = "mailto: eivind@ganskesikkert.no">Send Email</a>
-                                </span>
-                            </p>
-                            <p class="card-footer-item">
-                                <span>
-                                    Besøk på <a class="is-primary" href="https://www.linkedin.com/in/eivind-norling/">LinkedIn</a>
-                                </span>
-                            </p>
-                        </footer>
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-
-    <div id="footer" class="footer"></div>
-
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#00d1b2",
+                        "text": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#ffffff",
+                        "text": "#00d1b2"
+                    }
+                },
+                "position": "bottom-left",
+                "content": {
+                    "message": "Ganske Sikkert bruker cookies for å forbedre brukeropplevelsen og kartlegging av anonym brukerstatistikk for markedsføring.",
+                    "dismiss": "JEG FORSTÅR",
+                    "link": "Vis meg mer",
+                    "href": "https://ganskesikkert.no/personvern.html"
+                }
+            });
+        </script>
     </body>
 </html>
